@@ -1,0 +1,13 @@
+take:-
+    write("enter the area of circle:"),
+    read(X),area(X).
+area(X):-
+    A is (3.14 * X * X),
+    write(A).
+
+take1:-
+     write("enter the perimeter of circle:"),
+    read(Y),perimeter(Y).
+perimeter(Y):-
+    P is (2 * 3.14 * Y),
+    write(P).
